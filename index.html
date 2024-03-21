@@ -11,10 +11,17 @@
 <body> 
     
     <dialog>
-        <button autofocus>This will be the add button</button>
-        <p>This has cool colors but it will contain the input boxes for the add function</p>
+        <p>Please enter information for new book</p>
+        <form id="newEntry">
+            Title: <input type="text" id="title" required>
+            Author: <input type="text" id="author" required>
+            Number of pages: <input type="number" id="pages" required>
+            Check if Read: <input type="checkbox" id="read">
+        </form>
+        <button autofocus>Add Book</button>
+        
       </dialog>
-      <button>Add book button</button>
+      <button>New Book Entry</button>
 </body>
 <script src="index.js"></script>
 </html>

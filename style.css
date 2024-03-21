@@ -6,3 +6,7 @@
     );
     opacity: 0.75;
   }
+
+#newEntry {
+  display: flex;
+}  
